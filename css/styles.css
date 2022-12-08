@@ -1,0 +1,347 @@
+body{
+font-family: 'Playfair Display';
+font-size: 18px;
+line-height: 1.16;
+}
+
+.container{
+    width: 1250px;
+    margin: auto;
+    /* outline: 1px solid red; */
+}
+
+h1, h2, h3{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul{
+    list-style: none;
+}
+/* header styles */
+.header{
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+padding-top: 47px;
+}
+
+.nav-list{
+display: flex;
+padding-left: 0;
+margin-top: 0;
+margin-bottom: 0;
+gap: 107px;
+}
+
+
+.logo{
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 600;
+font-size: 42px;
+line-height: 1.19;
+color: #2F2E2E;
+text-decoration: none;
+}
+
+.menu-nav{
+font-family: 'Inter';
+font-style: normal;
+Font-size: 20px;
+Line-height: 1.2; 
+color: #2F2E2E;
+text-decoration: none;
+}
+
+.menu-nav:hover,
+.menu-nav:focus{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 1.2;
+color: #2F2E2E;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hero-box{
+    width: 691px;
+    background-image: linear-gradient(91.1deg, rgba(244, 246, 245, 0.9) -7.89%, rgba(255, 255, 255, 0.9) 132.55%);
+    padding: 138px 155px 139px 100px; 
+    
+}
+
+.box{
+    padding-top: 192px;
+    padding-bottom: 94px;
+    background-image: url('../images/hero-img.jpg');
+    background-position: right bottom;
+    background-size: 1150px 739px;
+    background-repeat: no-repeat;
+    width: 1440px;
+}
+
+.title-hero{
+margin-top: 0;
+margin-bottom: 10px;
+
+font-family: 'Playfair Display';
+Font-size: 51px;
+Line-height: 1.2;
+color: #2F2E2E;
+width: 425px;
+}
+
+.description-hero{
+margin-top: 0;
+margin-bottom: 0;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 32px;
+line-height: 39px;
+color: #2F2E2E;
+width: 436px;
+}
+
+/* our services styles */
+.services-box{
+    padding-top: 16px;
+    height: 384px;
+    background-color: rgba(37, 77, 77, 0.2);;
+}
+.services-title{
+margin-bottom: 45px;
+text-align: center;
+Font-family: Playfair Display;
+Font-style: 900;
+Font-size: 51px;
+color: #2F2E2E;
+}
+
+.services-list{
+margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;
+display: flex;
+justify-content: center;
+gap: 307px;
+}
+
+.services-item{
+    align-items: center;
+    width: 158px;
+}
+
+.icon-services-box{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+background-color: #254D4D;
+width: 103px;
+height: 103px;
+border-radius: 360%;
+}
+
+.services{
+margin-bottom: 9px;
+text-align: center;
+font-family: 'Playfair Display';
+font-size: 27px;
+line-height: 1.18;
+color: #2F2E2E;
+}
+
+.services-description{
+text-align: center;
+margin-top: 0;
+margin-bottom: 0;
+font-family: 'Playfair Display';
+font-size: 16px;
+line-height: 1.18;
+color: #2F2E2E;
+}
+/* about us section styles */
+.about-box{
+display: flex;
+
+padding-top: 76px;
+padding-bottom: 95px;
+align-items: center;
+}
+
+.about-text-box{
+margin-left: 50px;
+width: 456px;
+}
+
+.title-about{
+margin-bottom: 27px;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 900;
+Font-size: 51px;
+Line-height: 1.33;
+color: #2F2E2E;
+}
+
+.about-description{
+margin-top: 0;
+margin-bottom: 36px;
+
+font-family: 'Playfair Display';
+font-size: 31px;
+line-height: 1.16;
+color: #2F2E2E;
+}
+
+.about-us-link{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 1.20;
+color: #2F2E2E;
+text-decoration: none;
+}
+
+/* Our project styles */
+.project-menu-filter{
+display: flex;
+}
+
+.project-title{
+margin: 0;
+font-size: 51px;
+font-weight: 900;
+line-height: 1.17;
+color: #2F2E2E;
+}
+
+.project-menu-list{
+display: flex;
+align-items: center;
+
+margin-left: auto;
+margin-bottom: 0;
+margin-top: 0;
+padding: 0;
+gap: 114px;
+}
+
+.menu-project-btn{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 1.2;
+color: #2F2E2E;
+background-color: #fff;
+border: 0;
+}
+
+.menu-project-btn:hover, 
+.menu-project-btn:focus{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #2F2E2E;
+}
+
+.project-description{
+font-size: 18px;
+line-height: 1.16;
+color: #2F2E2E;
+}
+
+.project-list{
+margin-top: 50px;
+margin-bottom: 0;
+padding-left: 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 50px;
+}
+
+.project-list-item{
+    width: 344px;
+}
+
+.project-description{
+margin-top: 12px;
+width: 178px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+/* testimonial section styles */
+.testimonial-title{
+font-size: 51px;
+line-height: 1.17;
+color: #000000;
+}
+
+.name-user{
+font-size: 28px;
+line-height: 1.17;
+color: #2F2E2E;
+}
+
+.testimonial{
+font-size: 17px;
+line-height: 1.17;
+color: #2F2E2E;
+}
+/* footer styles */
+.footer{
+    background-color: #2E2F32;
+}
+
+.logo-footer{
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 600;
+font-size: 42px;
+line-height: 1.19;
+color: #FAFAFA;
+}
+
+.footer-title{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 1.20;
+color: #FAFAFA;
+}
+
+.company-history{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 1.70;
+color: #FAFAFA;
+}
+
+.footer-info{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 1.23;
+color: #FAFAFA;
+}
